@@ -936,7 +936,7 @@ body {
 }
 
 /* Responsive Styles for Extra Small Devices (Up to 400px) */
-@media (max-width: 400px)  and (min-width: 300px){
+@media (max-width: 430px)  and (min-width: 300px){
     *{
         overflow-x: hidden;
     }
