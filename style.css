@@ -156,7 +156,7 @@ body {
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 2px cyan, 0 0 5px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
 .img {
@@ -187,46 +187,23 @@ body {
 
 .about {
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2, .5fr);
-    /*align-items: center;*/
-    /*gap: 1.5rem;*/
+    gap: 1.5rem;
     width: 100%;
-    justify-content: space-between;
     min-height: 100vh;
     padding: 70px 8% ;
 }
 
-.about-img {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding-right: 10%;
-    margin-top: 7.5%;
-    margin-left: 8%;
-    /*margin-top: 7.5%;*/
-    opacity: 1;
-}
-
-.abt-res {
-    width: 100%;
-    height: auto;
-    max-width: 492px;
-    max-height: 892px;
-    border-radius: 90px;
-    box-shadow: 0 0 1pc cyan, 0 0 1px cyan, 0 0 1px cyan;
-    /* border: #0ef 1px solid; */
-}
 
 .about-text {
     margin-right: 8%;
-    margin-top: 13%;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .about-text h2 {
     font-size: 60px;
     letter-spacing: 5px;
+    
 }
 
 .about-text h2 span, p span  {
@@ -236,9 +213,12 @@ body {
 
 .about-text p {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 2;
     letter-spacing: 2px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 1%;
     margin-bottom: 4rem;
     text-align: justify;
     text-justify: inter-word;
@@ -263,13 +243,15 @@ body {
 
 /* ************************************************************************************************* */
   /* Skills */
-  #Skills {
+#Skills {
     background-color: #000;
+    
 }
 
 .subtitle {
     text-align: center;
     font-size: 60px;
+    margin-top: 3%;
     padding-bottom: 10px;
     padding-top: 70px;
 }
@@ -282,6 +264,7 @@ body {
     width: 100%;
     max-width: 800px;
     margin: auto;
+    margin-top: 3%;
     padding: 20px;
 }
 
@@ -1016,7 +999,7 @@ body {
         font-weight: 200;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        color: black;
     }
     .img{
         max-width: 300px;
