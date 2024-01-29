@@ -478,7 +478,7 @@ body {
 }
 
 .read:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan,0 0 25px cyan, 0 0 50px cyan;
     background-color: #081b29;
     color: #0ef;
 }
