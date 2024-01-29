@@ -215,28 +215,11 @@ body {
     line-height: 2;
     letter-spacing: 2px;
     margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
     margin-bottom: 4rem;
     text-align: justify;
     text-justify: inter-word;
-}
-
-.abtbtn-box {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 15px;
-    text-align: center;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.abtbtn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
 /* ************************************************************************************************* */
@@ -863,9 +846,6 @@ body {
         margin-bottom: 4rem;
         text-align: left;
     }
-    .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
-    }
 
     /*skills*/
     .subtitle{
@@ -1034,9 +1014,7 @@ body {
         margin-bottom: 4rem;
         text-align: left;
     }
-    .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
-    }
+
 
     /*skills*/
     .subtitle{
