@@ -798,6 +798,7 @@ body {
     }
     #resume-button{
         margin-left: 13px;
+        color: #551a8b;
         text-decoration: none !important;
     }
     .home-content h1 {
@@ -965,6 +966,7 @@ body {
     }
     #resume-button{
         margin-left: 13px;
+        color: #551a8b;
     }
     .home-content h1 {
         font-size: 30px;
