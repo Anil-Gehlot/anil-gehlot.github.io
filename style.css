@@ -96,7 +96,7 @@ body {
 
 .home-content h4 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
