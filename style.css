@@ -486,6 +486,32 @@ body {
 .read span:hover{
     background-color: #0ef;
 }
+/* *********************************** */
+.read-blog {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+}
+
+.read-blog:hover {
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan,0 0 15px cyan, 0 0 20px cyan;
+    background-color: #081b29;
+    color: #0ef;
+}
+.read-blog span:hover{
+    background-color: #0ef;
+}
+/* ************************************************** */
 
 .prj-list div:hover {
     transform: translateY(-2px);
@@ -966,7 +992,6 @@ body {
     }
     #resume-button{
         margin-left: 13px;
-        color: #551a8b;
     }
     .home-content h1 {
         font-size: 30px;
@@ -1104,6 +1129,21 @@ body {
     }
     .top i{
         color: #000;
+    }
+    .read{
+    box-shadow: 0 0 5px cyan, 0 0 6px cyan,0 0 7px cyan, 0 0 8px cyan;
+    background-color: #081b29;
+    color: #0ef;
+    }
+    .code-link {
+        box-shadow: 0 0 5px cyan, 0 0 6px cyan, 0 0 7px cyan, 0 0 8px cyan;
+        background-color: #081b29;
+        color: #0ef;
+    }
+    .read-blog:hover {
+        box-shadow: none;
+        background-color: #081b29;
+        /* color: #0ef; */
     }
 }
 
