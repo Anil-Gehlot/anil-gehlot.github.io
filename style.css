@@ -134,7 +134,7 @@ body {
 .home-sci a:hover {
     background: #0ef;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 5px #0ef;
 }
 
 .btn-box {
@@ -620,7 +620,7 @@ body {
 .contact-icons i:hover {
     background: #0ef;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 5px #0ef;
 }
 
 .last-text p{
