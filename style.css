@@ -1131,12 +1131,12 @@ body {
         color: #000;
     }
     .read{
-    box-shadow: 0 0 5px cyan, 0 0 6px cyan,0 0 7px cyan, 0 0 8px cyan;
+    box-shadow: 0 0 2px cyan, 0 0 3px cyan,0 0 4px cyan, 0 0 5px cyan;
     background-color: #081b29;
     color: #0ef;
     }
     .code-link {
-        box-shadow: 0 0 5px cyan, 0 0 6px cyan, 0 0 7px cyan, 0 0 8px cyan;
+        box-shadow: 0 0 2px cyan, 0 0 3px cyan, 0 0 4px cyan, 0 0 5px cyan;
         background-color: #081b29;
         color: #0ef;
     }
