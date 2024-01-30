@@ -137,26 +137,6 @@ body {
     box-shadow: 0 0 5px #0ef;
 }
 
-.btn-box {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 15px;
-    text-align: center;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
-}
-
-.btn-box:hover {
-    box-shadow: 0 0 2px cyan, 0 0 5px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
-}
-
 .img {
     display: inline-block;
     left: 60%;
@@ -181,8 +161,7 @@ body {
     border-bottom-right-radius: 251px;
 }
 
-/*about*/
-
+/*about section */
 .about {
     background-color: black;
     gap: 1.5rem;
@@ -223,11 +202,9 @@ body {
 }
 
 
-/* ************************************************************************************************* */
-  /* Skills style*/
+ /* Skills section style*/
 #Skills {
     background-color: #000;
-    
 }
 
 .subtitle {
@@ -320,8 +297,7 @@ body {
     }
 }
 
-/* **********************************************************************8  */
-
+/* Project section style */
 #Projects {
     background-color: #000;
 }
@@ -375,10 +351,6 @@ body {
     padding: 130px;
 }
 
-/* .project-item i {
-    font-size: 50px;
-    margin-bottom: 30px;
-} */
 
 .project-list h2 {
     font-size: 30px;
@@ -391,13 +363,6 @@ body {
 .project-item:hover {
     transform: translateY(-2px);
 }
-.project-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-top: 2%;
-    color: #fff;
-    text-align: center; /* Align the text to the center */
-}
 
 .project-list div {
     text-align: center;
@@ -409,9 +374,7 @@ body {
 }
 
 
-/* ************************************************************************************ */
-/* blog*/
-
+/* blog section style*/
 #blog{
     background-color: #000;
 }
@@ -486,7 +449,7 @@ body {
 .read span:hover{
     background-color: #0ef;
 }
-/* *********************************** */
+
 .read-blog {
     display: inline-block;
     padding: 12px 20px;
@@ -511,7 +474,6 @@ body {
 .read-blog span:hover{
     background-color: #0ef;
 }
-/* ************************************************** */
 
 .prj-list div:hover {
     transform: translateY(-2px);
@@ -536,11 +498,7 @@ body {
 }
 
 
-
-/* ************************************************** */
-
-/*contacts*/
-
+/*contacts section style*/
 .contacts {
     display: grid;
     /*grid-template-columns: repeat (2, 1fr);*/
@@ -574,12 +532,6 @@ body {
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -1166,4 +1118,3 @@ body {
     margin: 0 2%; 
     }
 }
-/* ********************************************************************************************** */
