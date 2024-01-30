@@ -222,6 +222,7 @@ body {
     text-justify: inter-word;
 }
 
+
 /* ************************************************************************************************* */
   /* Skills style*/
 #Skills {
@@ -973,16 +974,18 @@ body {
     .home-content h3 {
         font-size: 20px;
         font-weight: 300;
+        font: bold;
     }
     
     .home-content h4 {
         font-size: 15px;
-        font-weight: 200;
+        font:bold;
     }
     
     .home-content h4 span {
         font-size: 15px;
         font-weight: 200;
+        font:bold;
     }
     .btn-box:hover {
         color: black;
