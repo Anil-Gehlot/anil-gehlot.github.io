@@ -155,10 +155,11 @@ body {
 .responsive {
     width: 100%;
     height: auto;
-    border-top-left-radius: 251px;
+    /* background-color: wheat; */
+    border-top-left-radius: 21px;
     border-top-right-radius: 251px;
-    border-bottom-left-radius: 251px;
-    border-bottom-right-radius: 251px;
+    border-bottom-left-radius: 171px;
+    border-bottom-right-radius: 171px;
 }
 
 /*about section */
